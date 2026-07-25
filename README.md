@@ -135,7 +135,9 @@ A Random Forest Classifier was trained to predict instructor effectiveness acros
 | Medium | 0.86 | 1.00 | 0.92 |
 | Low | 1.00 | 1.00 | 1.00 |
 
-### Summary
+- <a href="https://github.com/mohdnaved04/Instructor-Effectiveness-Classification/blob/main/c_m_preVSrecall.png"> Confusion Matrix
+
+### Summary      
 
 - Achieved an overall **91.67% classification accuracy** on the test dataset.
 - The model perfectly identified **Low** effectiveness instructors, achieving **100% precision and recall**.
@@ -166,3 +168,4 @@ The proposed machine learning model can support EdTech organizations in making m
 - **Decision Support:** Provide objective insights to complement managerial evaluations, enabling evidence-based decisions rather than relying solely on subjective feedback.
 
 > **Note:** This model is intended as a decision-support tool and should not replace comprehensive human evaluation. Instructor performance should also consider qualitative factors such as teaching style, course difficulty, learner demographics, and institutional objectives.
+> 
