@@ -83,17 +83,32 @@ Each record in the dataset represents a **course batch** taught by an instructor
 
 ## Results
 
-The Random Forest classifier successfully predicted instructor effectiveness tiers using learner outcome, engagement, and feedback metrics.
+A Random Forest Classifier was trained to predict instructor effectiveness across three categories: **Low**, **Medium**, and **High**.
 
-Evaluation included:
+### Model Performance
 
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
+| Metric | Value |
+|--------|------:|
+| Accuracy | **91.67%** |
+| Weighted Precision | **0.93** |
+| Weighted Recall | **0.92** |
+| Weighted F1-Score | **0.91** |
 
-*(Replace this section with your actual model metrics.)*
+### Classification Performance
+
+| Class | Precision | Recall | F1-Score |
+|------|----------:|-------:|---------:|
+| High | 1.00 | 0.67 | 0.80 |
+| Medium | 0.86 | 1.00 | 0.92 |
+| Low | 1.00 | 1.00 | 1.00 |
+
+### Summary
+
+- Achieved an overall **91.67% classification accuracy** on the test dataset.
+- The model perfectly identified **Low** effectiveness instructors, achieving **100% precision and recall**.
+- **Medium** effectiveness instructors were classified with high reliability (F1-score: **0.92**).
+- Predictions for **High** effectiveness instructors were highly precise, although a few instances were classified into another category, resulting in lower recall.
+- Overall, the model demonstrates strong predictive performance and can effectively distinguish instructor effectiveness tiers using learner outcomes, engagement, and feedback metrics.
 
 ---
 
