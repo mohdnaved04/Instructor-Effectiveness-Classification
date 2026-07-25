@@ -66,44 +66,6 @@ Each record in the dataset represents a **course batch** taught by an instructor
 
 ---
 
-## Project Workflow
-
-```
-                 Raw Dataset
-                      │
-                      ▼
-              Data Cleaning
-                      │
-                      ▼
-        Exploratory Data Analysis
-                      │
-                      ▼
-          Feature Engineering
-                      │
-                      ▼
-Instructor Effectiveness Score Creation
-                      │
-                      ▼
-     Instructor-Level Aggregation
-                      │
-                      ▼
-          Train-Test Split
-                      │
-                      ▼
-       Random Forest Classifier
-                      │
-                      ▼
-          Model Evaluation
-                      │
-                      ▼
-        Feature Importance Analysis
-                      │
-                      ▼
-         Business Recommendations
-```
-
----
-
 ## Repository Structure
 
 ```
