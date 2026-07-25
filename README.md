@@ -27,7 +27,7 @@ This project develops a machine learning model to classify instructors into effe
 ## Dataset
 
 Each record in the dataset represents a **course batch** taught by an instructor.
-
+- <a href="https://github.com/mohdnaved04/Instructor-Effectiveness-Classification/blob/main/Assignment.xlsx">Edtech Dataset
 ### Identifier Features
 
 - Batch ID
