@@ -152,13 +152,13 @@ A Random Forest Classifier was trained to predict instructor effectiveness acros
 
 ## Business Applications
 
-This model can support EdTech organizations by:
+The proposed machine learning model can support EdTech organizations in making more informed, data-driven decisions about instructor performance and learner success.
 
-- Identifying high-performing instructors
-- Detecting instructors who may benefit from additional support
-- Improving learner success through data-driven interventions
-- Supporting instructor development with objective performance insights
+- **Instructor Performance Monitoring:** Identify instructors who consistently deliver strong learner outcomes and engagement.
+- **Early Intervention:** Detect instructors who may require additional training, mentoring, or instructional support before learner performance declines.
+- **Course Quality Improvement:** Analyze patterns across batches to understand which teaching practices contribute to higher completion rates and learner engagement.
+- **Resource Allocation:** Assist academic managers in assigning experienced instructors to high-impact or large-enrollment courses.
+- **Personalized Professional Development:** Highlight specific areas such as learner engagement or assessment performance where instructors can improve.
+- **Decision Support:** Provide objective insights to complement managerial evaluations, enabling evidence-based decisions rather than relying solely on subjective feedback.
 
-> **Note:** The model should assist decision-making rather than replace human evaluation.
-
----
+> **Note:** This model is intended as a decision-support tool and should not replace comprehensive human evaluation. Instructor performance should also consider qualitative factors such as teaching style, course difficulty, learner demographics, and institutional objectives.
