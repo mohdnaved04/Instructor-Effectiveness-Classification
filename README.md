@@ -81,6 +81,35 @@ Each record in the dataset represents a **course batch** taught by an instructor
 
 ---
 
+## Exploratory Data Analysis (EDA)
+
+The dataset was explored to understand its structure, quality, and relationships before model development.
+
+### Data Quality
+
+- Checked dataset dimensions and feature data types.
+- Examined missing values and duplicate records.
+- Verified that numerical features were within expected ranges.
+
+### Distribution Analysis
+
+- Visualized the distribution of learner outcome, engagement, and feedback metrics.
+- Identified variations in completion rates, quiz scores, and watch time across course batches.
+- Reviewed feature distributions to detect skewness and potential outliers.
+
+### Correlation Analysis
+
+- Generated a correlation heatmap to identify relationships among numerical variables.
+- Observed that learner outcome and engagement metrics showed stronger associations with instructor effectiveness than individual feedback metrics.
+- Checked for multicollinearity before model training.
+
+### Key Findings
+
+- No major data quality issues were observed after preprocessing.
+- Completion rate, assignment submission rate, and average watch time appeared to be strong indicators of instructor effectiveness.
+- Feedback metrics were informative but less predictive when considered independently.
+- The dataset was suitable for feature engineering and supervised classification.
+
 ## Results
 
 A Random Forest Classifier was trained to predict instructor effectiveness across three categories: **Low**, **Medium**, and **High**.
