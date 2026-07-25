@@ -97,11 +97,15 @@ The dataset was explored to understand its structure, quality, and relationships
 - Identified variations in completion rates, quiz scores, and watch time across course batches.
 - Reviewed feature distributions to detect skewness and potential outliers.
 
+- <a href="https://github.com/mohdnaved04/Instructor-Effectiveness-Classification/blob/main/Distribution.png"> Distribution Table
+
 ### Correlation Analysis
 
 - Generated a correlation heatmap to identify relationships among numerical variables.
 - Observed that learner outcome and engagement metrics showed stronger associations with instructor effectiveness than individual feedback metrics.
 - Checked for multicollinearity before model training.
+
+- <a href="https://github.com/mohdnaved04/Instructor-Effectiveness-Classification/blob/main/corr_mati.png"> Correlation Matrix
 
 ### Key Findings
 
