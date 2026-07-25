@@ -66,29 +66,6 @@ Each record in the dataset represents a **course batch** taught by an instructor
 
 ---
 
-## Repository Structure
-
-```
-Instructor-Effectiveness-Prediction
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── images/
-│   ├── workflow.png
-│   ├── correlation_heatmap.png
-│   ├── feature_importance.png
-│   └── confusion_matrix.png
-│
-├── Instructor_Effectiveness_Prediction.ipynb
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
----
-
 ## Machine Learning Pipeline
 
 - Data Cleaning
